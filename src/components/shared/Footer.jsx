@@ -1,10 +1,9 @@
-import React from "react";
 import Logo from "../../assets/images/logo.png";
 
 const Footer = () => {
   return (
-    <div className=" bg-neutral static bottom-0">
-      <footer className="container mx-auto footer sm:footer-horizontal bg-neutral text-neutral-content p-10">
+    <div className="bg-neutral">
+      <footer className="container mx-auto footer sm:footer-horizontal bg-neutral text-neutral-content p-10 pb-4">
         <aside>
           <div className="flex items-center gap-1">
             <img src={Logo} className="w-10" />

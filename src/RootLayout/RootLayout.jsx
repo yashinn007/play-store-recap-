@@ -5,12 +5,13 @@ import { ToastContainer } from "react-toastify";
 
 const RootLayout = () => {
   return (
-    <div>
+    <div className="min-h-screen flex flex-col">
       <Navbar></Navbar>
-      <Outlet></Outlet>
-      {/* <Footer></Footer> */}
-
-      <ToastContainer />
+      <main className="flex-1">
+        <Outlet></Outlet>
+        <ToastContainer />
+      </main>
+      <Footer></Footer>
     </div>
   );
 };

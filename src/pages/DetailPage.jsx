@@ -36,7 +36,7 @@ const DetailPage = () => {
     <div className="container mx-auto my-15 px-15">
       <div className="flex  gap-12">
         <div>
-          <img src={expectedApp.image} className="w-[300px]" />
+          <img src={expectedApp.image} className="w-75" />
         </div>
         <div>
           <h2 className="text-3xl font-bold my-2">{expectedApp.title}</h2>
